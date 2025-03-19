@@ -9,4 +9,3 @@ NO_USB_STARTUP_CHECK = yes
 BLUETOOTH_CUSTOM = yes
 
 DEBOUNCE_TYPE = asym_eager_defer_pk
-MOUSEKEY_ENABLE = yes

@@ -1,3 +1,2 @@
 VIA_ENABLE = yes
 EEPROM_DRIVER = custom
-MOUSEKEY_ENABLE = yes
