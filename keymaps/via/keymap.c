@@ -25,17 +25,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [3] = LAYOUT_tkl_ansi(
         KC_F11,    KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_VOLD,  KC_VOLU,  KC_MUTE,
-        KC_SLEP,   KC_F12,   KC_F9,    KC_F8,    KC_F7,    KC_SCRL,  KC_MPRV,  KC_BTN4,  KC_WH_U,  KC_BTN5,  KC_VOLU,  KC_BRID,  KC_MPRV,  KC_MNXT,
-        KC_LCTL,   KC_F11,   KC_F6,    KC_F5,    KC_F4,    KC_PSCR,  KC_MNXT,  KC_WH_D,  KC_WH_D,  KC_WH_R,  KC_VOLD,  KC_BRIU,            KC_MPLY,
+        KC_SLEP,   KC_F12,   KC_F9,    KC_F8,    KC_F7,    KC_SCRL,  KC_MPRV,  KC_BTN4,  KC_WH_U,  KC_BTN5,  KC_VOLU,  KC_BRIU,  KC_MPRV,  KC_MNXT,
+        KC_LCTL,   KC_F11,   KC_F6,    KC_F5,    KC_F4,    KC_PSCR,  KC_MNXT,  KC_WH_L,  KC_WH_D,  KC_WH_R,  KC_VOLD,  KC_BRID,            KC_MPLY,
         KC_LSFT,   KC_F3,    KC_F2,    KC_F1,    KC_F10,   KC_PAUS,  KC_MPLY,  KC_BTN1,  KC_BTN3,  KC_BTN2,  KC_MUTE,                      KC_RSFT,
         KC_LCTL,   KC_LGUI,  KC_LALT,                      KC_F11,                                 KC_LALT,  KC_APP,   KC_RCTL,            TG(1)
     ),
-    [4] = LAYOUT_tkl_ansi(`
+    [4] = LAYOUT_tkl_ansi(
         LOGO_TOG,  KC_WBAK,  KC_WFWD,  KC_WREF,  KC_WSTP,  KC_WSCH,  KC_WFAV,  KC_WHOM,  KC_MSTP,  KC_MAIL,  KC_MSEL,  KC_MYCM,  KC_CALC,  KC_NO,
         MD_USB,    MD_BLE1,  MD_BLE2,  MD_BLE3,  MD_24G,   KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,
         LOGO_RMOD, LOGO_MOD, LOGO_HUD, LOGO_HUI, LOGO_SAD, LOGO_SAI, LOGO_VAD, LOGO_VAI, LOGO_SPD, LOGO_SPI, KC_NO,    KC_NO,              KC_NO,
         RGB_RMOD,  RGB_MOD,  RGB_HUD,  RGB_HUI,  RGB_SAD,  RGB_SAI,  RGB_VAD,  RGB_VAI,  RGB_SPD,  RGB_SPI,  KC_UP,                        KC_NO,
         U_EE_CLR,  QK_WLO,   QK_BAT,                       RGB_RTOG,                               KC_LEFT,  KC_DOWN,  KC_RGHT,            KC_NO
     )
-}; 
-
+};
