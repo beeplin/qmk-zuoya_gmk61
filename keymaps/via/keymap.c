@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [4] = LAYOUT_tkl_ansi(
         LOGO_TOG,  MD_BLE1,  MD_BLE2,  MD_BLE3,  MD_24G,   KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_HOME,  KC_END,   KC_INS,   KC_DEL,
         KC_NO,     RGB_MOD,  RGB_HUI,  RGB_SAI,  RGB_VAI,  RGB_SPI,  LOGO_MOD, LOGO_HUI, LOGO_SAI, LOGO_VAI, LOGO_SPI, KC_NO,    KC_NO,    KC_NO,
-        KC_NO,     RGB_RMOD, RGB_HUD,  RGB_SAD,  RGB_VAD,  RGB_SPD,  LOGO_RMOD,LOGO_HUD, LOGO_SAD, LOGO_VAD, LOGO_SPD, KC_NO,              TG(1),
+        KC_NO,     RGB_RMOD, RGB_HUD,  RGB_SAD,  RGB_VAD,  RGB_SPD,  LOGO_RMOD,LOGO_HUD, LOGO_SAD, LOGO_VAD, LOGO_SPD, KC_NO,              TG(4),
         KC_NO,     KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_PGUP,  KC_UP,                        KC_PGDN,
         U_EE_CLR,  QK_WLO,   QK_BAT,                       RGB_RTOG,                               KC_LEFT,  KC_DOWN,  KC_RGHT,            KC_NO
     )
