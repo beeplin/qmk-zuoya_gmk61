@@ -32,6 +32,9 @@
 
 #define TRANSIENT_EEPROM_SIZE 4096
 
+// customized by beeplin
 #define DYNAMIC_KEYMAP_LAYER_COUNT 5
 #define HOLD_ON_OTHER_KEY_PRESS
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+#define QUICK_TAP_TERM 0
+// #define TAPPING_TOGGLE 2
