@@ -1,6 +1,5 @@
 #include QMK_KEYBOARD_H
 #include "../../lib/rdr_lib/rdr_common.h"
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_tkl_ansi(
         KC_ESC,    KC_1,     KC_2,     KC_3,     KC_4,     KC_5,     KC_6,     KC_7,     KC_8,     KC_9,     KC_0,     KC_MINS,  KC_EQL,   KC_BSPC,
@@ -28,13 +27,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_INS,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   KC_SCRL,  KC_MPRV,  KC_BTN4,  KC_WH_U,  KC_BTN5,  KC_VOLU,  KC_BRIU,  KC_MYCM,  KC_CALC,
         KC_LCTL,   KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_PSCR,  KC_MNXT,  KC_WH_L,  KC_WH_D,  KC_WH_R,  KC_VOLD,  KC_BRID,            KC_MAIL,
         KC_LSFT,   KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_PAUS,  KC_MPLY,  KC_BTN1,  KC_BTN3,  KC_BTN2,  KC_MUTE,                      KC_RSFT,
-        KC_LCTL,   KC_LGUI,  KC_LALT,                      KC_SLEP,                                KC_RALT,  KC_RGUI,  KC_RCTL,            KC_NO
+        KC_LCTL,   KC_LGUI,  KC_LALT,                      KC_SLEP,                                KC_RALT,  KC_RGUI,  KC_RCTL,            XXXXXXX
     ),
     [4] = LAYOUT_tkl_ansi(
-        LOGO_TOG,  MD_BLE1,  MD_BLE2,  MD_BLE3,  MD_24G,   XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_HOME,  KC_END,   KC_INS,   KC_DEL,
-        XXXXXXX,   RGB_MOD,  RGB_HUI,  RGB_SAI,  RGB_VAI,  RGB_SPI,  LOGO_MOD, LOGO_HUI, LOGO_SAI, LOGO_VAI, LOGO_SPI, XXXXXXX,  XXXXXXX,  KC_NO,
-        XXXXXXX,   RGB_RMOD, RGB_HUD,  RGB_SAD,  RGB_VAD,  RGB_SPD,  LOGO_RMOD,LOGO_HUD, LOGO_SAD, LOGO_VAD, LOGO_SPD, XXXXXXX,            TG(4),
-        XXXXXXX,   XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_PGUP,  KC_UP,                        KC_PGDN,
-        QK_BAT,    QK_WLO,   U_EE_CLR,                     RGB_RTOG,                               KC_LEFT,  KC_DOWN,  KC_RGHT,            KC_NO
+        LOGO_TOG,  MD_BLE1,  MD_BLE2,  MD_BLE3,  MD_24G,   XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_INS,   KC_HOME,  KC_END,   KC_DEL,
+        QK_BAT,    RGB_MOD,  RGB_HUI,  RGB_SAI,  RGB_VAI,  RGB_SPI,  LOGO_MOD, LOGO_HUI, LOGO_SAI, LOGO_VAI, LOGO_SPI, XXXXXXX,  XXXXXXX,  BS_TOGG,
+        CL_TOGG,   RGB_RMOD, RGB_HUD,  RGB_SAD,  RGB_VAD,  RGB_SPD,  LOGO_RMOD,LOGO_HUD, LOGO_SAD, LOGO_VAD, LOGO_SPD, XXXXXXX,            TG(4),
+        NK_TOGG,   U_EE_CLR, XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_PGUP,  KC_UP,                        KC_PGDN,
+        CG_TOGG,   QK_WLO,   AG_TOGG,                      RGB_RTOG,                               KC_LEFT,  KC_DOWN,  KC_RGHT,            XXXXXXX
     )
 };
