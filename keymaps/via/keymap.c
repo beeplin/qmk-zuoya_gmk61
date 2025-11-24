@@ -24,11 +24,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_INS,    KC_LGUI,  KC_LALT,                      KC_SPC,                                 KC_RALT,  KC_RGUI,  KC_RCTL,            TG(1)
     ),
     [3] = LAYOUT_tkl_ansi(
-        KC_WHOM,   KC_WBAK,  KC_WFWD,  KC_WREF,  KC_WSTP,  KC_WSCH,  KC_WFAV,  KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,
-        KC_SLEP,   KC_F9,    KC_F10,   KC_F11,   KC_F12,   KC_SCRL,  KC_MPRV,  KC_BTN4,  KC_WH_U,  KC_BTN5,  KC_VOLU,  KC_BRIU,  KC_MYCM,  KC_CALC,
+        KC_WHOM,   KC_WBAK,  KC_WFWD,  KC_WREF,  KC_WSTP,  KC_WSCH,  KC_WFAV,  KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_MSEL,
+        KC_INS,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   KC_SCRL,  KC_MPRV,  KC_BTN4,  KC_WH_U,  KC_BTN5,  KC_VOLU,  KC_BRIU,  KC_MYCM,  KC_CALC,
         KC_LCTL,   KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_PSCR,  KC_MNXT,  KC_WH_L,  KC_WH_D,  KC_WH_R,  KC_VOLD,  KC_BRID,            KC_MAIL,
         KC_LSFT,   KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_PAUS,  KC_MPLY,  KC_BTN1,  KC_BTN3,  KC_BTN2,  KC_MUTE,                      KC_RSFT,
-        KC_LCTL,   KC_LGUI,  KC_LALT,                      KC_MSEL,                                KC_RALT,  KC_RGUI,  KC_RCTL,            KC_NO
+        KC_LCTL,   KC_LGUI,  KC_LALT,                      KC_SLEP,                                KC_RALT,  KC_RGUI,  KC_RCTL,            KC_NO
     ),
     [4] = LAYOUT_tkl_ansi(
         LOGO_TOG,  MD_BLE1,  MD_BLE2,  MD_BLE3,  MD_24G,   KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_HOME,  KC_END,   KC_INS,   KC_DEL,
