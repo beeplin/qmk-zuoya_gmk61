@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_INS,   KC_F9,    KC_F10,   KC_F11,   KC_F12,   KC_SCRL,  KC_MPRV,  KC_BTN4,  KC_WH_U,  KC_BTN5,  KC_VOLU,  KC_BRIU,  KC_SCRL,  KC_PAUS,
         _______,  KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_PSCR,  KC_MNXT,  KC_WH_L,  KC_WH_D,  KC_WH_R,  KC_VOLD,  KC_BRID,            KC_APP,
         _______,  KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_PAUS,  KC_MPLY,  KC_BTN1,  KC_BTN3,  KC_BTN2,  KC_MUTE,                      _______,
-        _______,  _______,  _______,                      KC_SLEP,                                _______,  _______,  _______,            _______
+        _______,  _______,  _______,                      CW_TOGG,                                _______,  _______,  _______,            _______
     ),
     [4] = LAYOUT_tkl_ansi(
         QK_BAT,   MD_BLE1,  MD_BLE2,  MD_BLE3,  MD_24G,   _______,  _______,  _______,  _______,  _______,  _______,  DM_REC1,  DM_REC2,  DM_RSTP,
