@@ -37,3 +37,4 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         CG_TOGG,  GU_TOGG,  AG_TOGG,                      RGB_TOG,                                KC_LEFT,  KC_DOWN,  KC_RGHT,            _______
     )
 };
+// qmk config user.qmk_home=~/git/qmk_firmware2_zuoya_gmk61 user.keyboard=zuoya/gmk61 user.keymap=via
