@@ -31,8 +31,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [4] = LAYOUT_tkl_ansi(
         QK_BAT,   MD_BLE1,  MD_BLE2,  MD_BLE3,  MD_24G,   _______,  _______,  _______,  _______,  _______,  _______,  DM_REC1,  DM_REC2,  DM_RSTP,
-        EC_TOGG,  RGB_MOD,  RGB_HUI,  RGB_SAI,  RGB_VAI,  RGB_SPI,  LOGO_MOD, LOGO_HUI, LOGO_SAI, LOGO_VAI, LOGO_SPI, DM_PLY1,  DM_PLY2,  BS_TOGG,
-        CW_TOGG,  RGB_RMOD, RGB_HUD,  RGB_SAD,  RGB_VAD,  RGB_SPD,  LOGO_RMOD,LOGO_HUD, LOGO_SAD, LOGO_VAD, LOGO_SPD, LOGO_TOG,           DF(1),
+        EC_TOGG,  RGB_RMOD, RGB_HUI,  RGB_SAI,  RGB_VAI,  RGB_SPI,  LOGO_RMOD,LOGO_HUI, LOGO_SAI, LOGO_VAI, LOGO_SPI, DM_PLY1,  DM_PLY2,  BS_TOGG,
+        CW_TOGG,  RGB_MOD,  RGB_HUD,  RGB_SAD,  RGB_VAD,  RGB_SPD,  LOGO_MOD, LOGO_HUD, LOGO_SAD, LOGO_VAD, LOGO_SPD, LOGO_TOG,           DF(1),
         CL_TOGG,  QK_RBT,   _______,  EE_CLR,   DB_TOGG,  QK_BOOT,  NK_TOGG,  QK_MAKE,  QK_AREP,  QK_REP,   KC_UP,                        DF(0),
         CG_TOGG,  GU_TOGG,  AG_TOGG,                      RGB_TOG,                                KC_LEFT,  KC_DOWN,  KC_RGHT,            _______
     )
