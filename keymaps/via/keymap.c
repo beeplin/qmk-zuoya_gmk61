@@ -31,8 +31,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [EXTRA2] = LAYOUT_tkl_ansi(
         KC_F24,   KC_F13,   KC_F14,   KC_F15,   KC_F16,   KC_F17,   KC_F18,   KC_F19,   KC_F20,   KC_F21,   KC_F22,   KC_F23,   KC_PPLS,  KC_PAST,
-        KC_SLEP,  KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_PSCR,  KC_BRID,  KC_WH_U,  KC_BRIU,  KC_VOLU,  KC_WH_L,  KC_PMNS,  KC_PSLS,
-        KC_LCTL,  KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_SCRL,  KC_BTN4,  KC_WH_D,  KC_BTN5,  KC_VOLD,  KC_WH_R,            KC_NUM,
+        KC_SLEP,  KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_PSCR,  KC_BTN4,  KC_WH_U,  KC_BTN5,  KC_VOLU,  KC_BRIU,  KC_PMNS,  KC_PSLS,
+        KC_LCTL,  KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_SCRL,  KC_WH_L,  KC_WH_D,  KC_WH_R,  KC_VOLD,  KC_BRID,            KC_NUM,
         KC_LSFT,  KC_BTN2,  KC_BTN3,  KC_BTN1,  KC_F11,   KC_F12,   KC_PAUS,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,  _______,
         _______,  _______,  _______,                      _______,                                _______,  _______,  _______,  QK_AREP
     ),
